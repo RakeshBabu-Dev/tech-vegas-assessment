@@ -243,6 +243,7 @@ body {
     color: rgb(0, 0, 0) !important;
   border: 1px solid;
   border-radius: 8px;
+  background: white !important;
   transition:  0.3s ease-in-out;
 }
 /* Selected Category Header */
@@ -250,7 +251,7 @@ body {
   font-weight: bold;
   font-size: 24px;
   margin-bottom: 20px;
-  color: #333;
+  // color: #333;
 }
 .card-title{
   font-size: large;
@@ -354,7 +355,9 @@ body {
 .profile-details a:hover {
   text-decoration: underline;
 }
-
+.text-warning {
+  color:orange !important;
+}
 
 /* Responsive Design */
 @media (max-width: 768px) {
